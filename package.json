@@ -1,0 +1,25 @@
+{
+  "name": "aplicationNode",
+  "version": "1.0.0",
+  "description": "Aplicação em NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welbertlsantos/aplicationNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/welbertlsantos/aplicationNode/issues"
+  },
+  "homepage": "https://github.com/welbertlsantos/aplicationNode#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "http": "0.0.0"
+  }
+}
