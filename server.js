@@ -1,6 +1,7 @@
 'use strict'
 const app = require('./src/app');
 const http = require('http');
+const express = require('express');
 
 const port = 8080;
 app.set('port', port);

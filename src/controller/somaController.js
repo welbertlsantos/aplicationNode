@@ -6,6 +6,7 @@ exports.soma = async(req, res) => {
     let multiplica = await multiplicaFunc(soma);
     let divide = await divideFunc(multiplica);
     let subtrai = await subtraiFunc(divide, soma);
+    console.log("xxx");
     res.status(200).send ({soma: soma, multiplica: multiplica, divide : divide, subtrai : subtrai });
 };
 
